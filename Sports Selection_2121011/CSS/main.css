@@ -1,0 +1,12 @@
+td{
+	border-radius: 6px
+}
+#ids{
+	border: 2px solid black;
+}
+td:hover{
+	font-family: Cooper Black;
+}
+a:hover{
+	font-size: larger;
+}

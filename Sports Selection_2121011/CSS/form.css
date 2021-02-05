@@ -1,0 +1,28 @@
+body{
+	background-color: rgb(23, 255, 247);
+}
+table{
+	border-radius: 6px;
+	background-color: rgb(166, 255, 203); 
+}
+input{
+	border: rgb(166, 255, 203);
+	border-bottom: 1px solid;
+	border-radius: 3px;
+}
+td{
+	width: max-content: 
+}
+p{
+	border: 1px solid red;
+	background-color: yellow;
+	margin-right: 160px;
+	margin-left: 160px;
+}
+button{
+	color: white;
+	background-color: green;
+}
+button:hover{
+	background-color: red;
+}

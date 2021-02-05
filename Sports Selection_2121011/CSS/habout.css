@@ -1,0 +1,10 @@
+div{
+	background-color: aqua;
+	border-radius: 12px;
+	border-bottom: 3px solid blue; 
+}
+li{
+   background-color: orange;
+   border-radius: 20px;
+   border-bottom: 4px solid red;
+}

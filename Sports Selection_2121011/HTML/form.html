@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="C:\Users\Admin\Desktop\Sports Selection_2121011\JS\validation.js"></script>
+	<link rel="stylesheet" type="text/css" href="C:\Users\Admin\Desktop\Sports Selection_2121011\CSS\form.css">
+</head>
+<body><center>
+	<p>Account Registration</p>
+<form onsubmit="return check()" name="form" novalidate>
+	<table cellpadding="2" cellspacing="6" align="center">
+		<tr><td><input type="text" placeholder="Enter Name"  name="name"><font color="red">*</font></td><td><input type="email" placeholder="Enter E-mail Address" name="email"><font color="red">*</font></td></tr>
+		<tr><td><input type="password" placeholder="Enter Password" name="pass"><font color="red">*</font></td><td><input type="password" placeholder="Confirm Password" name="cpass"><font color="red">*</font></td></tr>
+		<tr><td colspan="2"><input type="tel" name="tel" placeholder="Contact number"></td></tr>
+        <tr><td>Gender </td><td><input type="radio" name="gen">Male<input type="radio" name="gen">Female</td></tr>
+		<tr><td>Your game :-</td><td><select><option>vollyball</option><option>Handball</option><option>Basketball</option><option>Chess</option></select></td></tr>
+		<tr><td>Adhar Card<font color="red">*</font></td><td><input type="file" name="acard"></td></tr>
+		<tr><td>Passport size photo<font color="red">*</font></td><td><input type="file" name="p"></td></tr>
+		<tr><td>Bonafied certificate<font color="red">*</font></td><td><input type="file" name="bncert"></td></tr>
+		<tr><td>Birth cerificate<font color="red">*</font></td><td><input type="file" name="bcert"></td></tr>
+	    <tr><td>Marksheet (10th or 12th)</td><td><input type="file"></td></tr>
+		<tr><td align="right"><button type="submit">Submit</button></td><td><button type="reset">Reset</button></td></tr>
+    
+	</table>
+</form></center>
+</body>
+</html>

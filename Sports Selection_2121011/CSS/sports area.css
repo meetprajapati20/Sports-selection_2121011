@@ -1,0 +1,28 @@
+td{
+	border-radius: 3px;
+}
+#i1{
+    background-color: aqua; 
+}
+#i2{
+    background-color: rgb(39, 242, 73);
+}
+#i3{
+    background-color: rgb(242, 39, 232);
+}
+#i4{
+	background-color: rgb(255, 195, 54);
+}
+td:hover{
+	border:3px solid;
+	border-radius: 3px; 
+}
+a:hover{
+	font-family: Arial Black;
+}
+a:visited{
+	color: green;
+}
+a:link{
+    color: blue;
+}

@@ -1,0 +1,3 @@
+function pri() {
+	window.print();
+}
